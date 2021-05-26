@@ -1,0 +1,32 @@
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 500;
+	src: url("../fonts/barlow-v5-latin-500.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-500.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Barlow";
+	font-style: normal;
+	font-weight: 600;
+	src: url("../fonts/barlow-v5-latin-600.woff2") format("woff2"),
+		url("../fonts/barlow-v5-latin-600.woff") format("woff");
+}
+
+body {
+	font-family: Barlow;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+}
+table {
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 10px;
+	text-align: center;
+	border: 1px solid black;
+}
